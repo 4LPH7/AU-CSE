@@ -1,0 +1,319 @@
+{
+  "faculty": [
+    {
+        "name": "Dr. P. ARUNA",
+        "designation": "PROFESSOR",
+        "contact": "arunapuvi@yahoo.co.in",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/02363.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=02363&dc=E04"
+    },
+    {
+        "name": "Dr. S. PALANIVEL",
+        "designation": "PROFESSOR",
+        "contact": "spal_yughu@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/03277.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=03277&dc=E04"
+    },
+    {
+        "name": "Dr. R. BHAVANI",
+        "designation": "PROFESSOR & HEAD",
+        "contact": "bhavaniaucse@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/03281.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=03281&dc=E04"
+    },
+    {
+        "name": "Dr. M. KALAISELVI GEETHA",
+        "designation": "PROFESSOR",
+        "contact": "geesiv@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/03292.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=03292&dc=E04"
+    },
+    {
+        "name": "Dr. T.S. SUBASHINI",
+        "designation": "PROFESSOR of COMPUTER SCIENCE & ENGG. & DIRECTOR in ADIC",
+        "contact": "rtramsuba@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/03547.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=03547&dc=E04"
+    },
+    {
+        "name": "Dr. A. SUHASINI",
+        "designation": "PROFESSOR",
+        "contact": "suha_babu@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/02844.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=02844&dc=E04"
+    },
+    {
+        "name": "Dr. AN. SIGAPPI",
+        "designation": "PROFESSOR",
+        "contact": "an.sigappi@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/03523.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=03523&dc=E04"
+    },
+    {
+        "name": "Dr. A. GEETHA",
+        "designation": "PROFESSOR",
+        "contact": "aucsegeetha@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04275.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04275&dc=E04"
+    },
+    {
+        "name": "Dr. P. DHANALAKSHMI",
+        "designation": "PROFESSOR",
+        "contact": "abidhana01@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/03974.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=03974&dc=E04"
+    },
+    {
+        "name": "Dr. R. PRIYA",
+        "designation": "PROFESSOR",
+        "contact": "prykndn@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04153.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04153&dc=E04"
+    },
+    {
+        "name": "Dr. S. PASUPATHY",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "pathyannamalai@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/05413.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=05413&dc=E04"
+    },
+    {
+        "name": "Dr. M. BALASUBRAMANIAN",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "balu_june1@yahoo.co.in",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04260.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04260&dc=E04"
+    },
+    {
+        "name": "Dr. R. RAGUPATHY",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "cse_ragu@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04433.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04433&dc=E04"
+    },
+    {
+        "name": "Dr. R. MADHAN MOHAN",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "madhanmohan_mithu@yahoo.c",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04284.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04284&dc=E04"
+    },
+    {
+        "name": "Dr. S.G. SANTHI",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "sgsau2009@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04285.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04285&dc=E04"
+    },
+    {
+        "name": "Dr. G. ARULSELVI",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "arulselvi_ag2004@yahoo.co",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04631.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04631&dc=E04"
+    },
+    {
+        "name": "Dr. G. RAMACHANDRAN",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "gmrama1975@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04612.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04612&dc=E04"
+    },
+    {
+        "name": "Dr. N.J. NALINI",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "njncse78@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04755.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04755&dc=E04"
+    },
+    {
+        "name": "Dr. R. SAMINATHAN",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "samiaucse@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04729.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04729&dc=E04"
+    },
+    {
+        "name": "Dr. P. SUDHAKAR",
+        "designation": "ASSOCIATE PROFESSOR in Elect & Comm.",
+        "contact": "kar.sudha@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04757.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04757&dc=E04"
+    },
+    {
+        "name": "Dr. M. GOVINDARAJAN",
+        "designation": "ASSOCIATE PROFESSOR & Nodal Officer",
+        "contact": "govind_aucse@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/05456.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=05456&dc=E04"
+    },
+    {
+        "name": "Dr. B. KIRUBAGARI",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "kirubacdm@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04432.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04432&dc=E04"
+    },
+    {
+        "name": "Dr. A. KANTHIMATHINATHAN",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "kanthi_88@yahoo.co.in",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/05353.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=05353&dc=E04"
+    },
+    {
+        "name": "Dr. L.R. SUDHA",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "sudhaselvin@ymail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04839.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04839&dc=E04"
+    },
+    {
+        "name": "Dr. G. PRABAKARAN",
+        "designation": "ASSOCIATE PROFESSOR in Elect & Comm.",
+        "contact": "gpaucse@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/05492.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=05492&dc=E04"
+    },
+    {
+        "name": "Dr. R. ARUNKUMAR",
+        "designation": "ASSOCIATE PROFESSOR in Elect & Comm.",
+        "contact": "arunkumar_an@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/08130.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=08130&dc=E04"
+    },
+    {
+        "name": "Dr. M. ARULSELVI",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "marulcse.au@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/08128.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=08128&dc=E04"
+    },
+    {
+        "name": "Dr. S. VIJAY BHANU",
+        "designation": "ASSOCIATE PROFESSOR & DEPUTY CONTROLLER OF EXAMINATIONS",
+        "contact": "svbhanu22@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/04346.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=04346&dc=E04"
+    },
+    {
+        "name": "Dr. K. KAVITHA",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "kavithacseau@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/08866.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=08866&dc=E04"
+    },
+    {
+        "name": "Dr. C. ANBUANANTH",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "anbu_ananth2006@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/09173.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=09173&dc=E04"
+    },
+    {
+        "name": "Dr. T. SURESH",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "suresh_raman06@yahoo.co.i",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/09222.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=09222&dc=E04"
+    },
+    {
+        "name": "Dr. A. PUNITHA",
+        "designation": "ASSOCIATE PROFESSOR",
+        "contact": "charuka12@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/10533.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=10533&dc=E04"
+    },
+    {
+        "name": "Dr. S. ABIRAMI",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "reach_abisv@yahoo.co.in",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/08129.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=08129&dc=E04"
+    },
+    {
+        "name": "Mr. S. KARTHIK",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "karthikadivarahan@gmail.c",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/08867.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=08867&dc=E04"
+    },
+    {
+        "name": "Dr. M. THILLAIKARASI",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "selva.thillai69@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/03473.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=03473&dc=E04"
+    },
+    {
+        "name": "Dr. S. ARIVALAGAN",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "arivucseau@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/11498.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=11498&dc=E04"
+    },
+    {
+        "name": "Dr. S. SARAVANAN",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "ssarav_me@yahoo.co.in",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/11604.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=11604&dc=E04"
+    },
+    {
+        "name": "Dr. S. MOHAN",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "mohancseau@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/11586.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=11586&dc=E04"
+    },
+    {
+        "name": "Dr. S. SATHIYA",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "sathiya.sep05@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/12069.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=12069&dc=E04"
+    },
+    {
+        "name": "Dr. V. RADHIKARANI",
+        "designation": "ASSISTANT PROFESSOR (DR.AMBEDKAR CHAIR)",
+        "contact": "rathika_1982@rediffmail.c",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/12006.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=12006&dc=E04"
+    },
+    {
+        "name": "Dr. KT. MEENA ABARNA",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "abarnakt@yahoo.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/13628.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=13628&dc=E04"
+    },
+    {
+        "name": "Dr. P. ANBALAGAN",
+        "designation": "ASSISTANT PROFESSOR",
+        "contact": "anbalagansamy@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/14691.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=14691&dc=E04"
+    },
+    {
+        "name": "Mr. N. NAGARAJAN",
+        "designation": "ASSISTANT PROFESSOR/PROGRAMMER",
+        "contact": "nnr764@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/05591.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=05591&dc=E04"
+    },
+    {
+        "name": "Ms. E. NANDHINIPRIYA",
+        "designation": "ASSISTANT PROFESSOR/PROGRAMMER",
+        "contact": "murugan.easwar@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/14189.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=14189&dc=E04"
+    },
+    {
+        "name": "Dr. S. RAJAKUMARAN",
+        "designation": "ASSISTANT PROFESSOR/PROGRAMMER",
+        "contact": "srajakumaransubashini@gmail.com",
+        "image": "https://annamalaiuniversity.ac.in/assets/staff_photos/14402.jpg",
+        "profile_link": "https://annamalaiuniversity.ac.in/faculty_view.php?id=14402&dc=E04"
+    }
+]
+}

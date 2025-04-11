@@ -1,0 +1,137 @@
+:root {
+  --gradient-primary: linear-gradient(135deg, rgba(131,43,255,0.84), rgba(43,207,255,0.85));
+  --gradient-secondary: linear-gradient(135deg, rgba(149,46,240,0.9), rgba(58,134,255,0.85));
+  --gradient-animation-colors: linear-gradient(135deg, 
+    rgba(131,45,119,0.84) 0%,
+    rgba(0,5,119,0.85) 25%,
+    rgba(131,46,240,0.8) 75%,
+    rgba(73,11,255,0.85) 100%
+  );
+  --gradient-overlay: radial-gradient(circle at 90% 10%, rgba(255,75,43,0.25) 0%, transparent 30%),
+                      radial-gradient(circle at 10% 90%, rgba(58,134,255,0.25) 0%, transparent 30%),
+                      linear-gradient(120deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%);
+  --transition-easing: cubic-bezier(0.4,0,0.2,1);
+}
+
+/* Custom cursor with hardware optimization */
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  background: var(--gradient-primary);
+  border: 2px solid rgba(255,255,255,0.8);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: all 0.15s var(--transition-easing);
+  transform: translate3d(-50%,-50%,0);
+  will-change: transform, width, height;
+  opacity: 0.8;
+  backdrop-filter: blur(2px);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cursor-trail {
+  width: 8px;
+  height: 8px;
+  background: var(--gradient-primary);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.4;
+  transform: translate3d(-50%,-50%,0);
+  transition: opacity 0.2s ease;
+  will-change: transform, opacity;
+  animation: fadeTrail 0.5s ease-out forwards;
+  animation-delay: var(--delay);
+}
+
+.custom-cursor.active {
+  width: 24px;
+  height: 24px;
+  background: var(--gradient-secondary);
+  border-color: rgba(255,255,255,0.9);
+  opacity: 1;
+}
+
+/* Optimized gradient animations */
+.gradient-animation {
+  background: var(--gradient-animation-colors);
+  background-size: 400% 400%;
+  animation: gradientAnimation 8s ease infinite;
+  -webkit-perspective: 1000;
+          perspective: 1000;
+}
+
+.gradient-overlay {
+  background: var(--gradient-overlay);
+  mix-blend-mode: overlay;
+  backdrop-filter: blur(12px);
+  transform: translateZ(0);
+}
+
+/* Enhanced section cards */
+.section-card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  transform: translateZ(0);
+}
+
+/* Button performance improvements */
+.cta-button {
+  background: linear-gradient(45deg, rgba(255,65,108,0.9), rgba(255,75,43,0.9));
+  transition: transform 0.3s var(--transition-easing), 
+              box-shadow 0.3s var(--transition-easing);
+  will-change: transform, box-shadow;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255,65,108,0.4);
+}
+
+/* Animation keyframes */
+@keyframes gradientAnimation {
+  0%, 100% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+}
+
+@keyframes fadeTrail {
+  to { opacity: 0; transform: translate3d(-50%,-50%,0) scale(0.5) }
+}
+
+/* Hardware acceleration layer */
+.custom-cursor,
+.cursor-trail,
+.gradient-animation,
+.gradient-overlay {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  transform: translate3d(0,0,0);
+}
+
+/* Touch device optimization */
+@media (hover: none) {
+  .custom-cursor,
+  .cursor-trail {
+    display: none !important;
+  }
+}
+
+/* Will-change management */
+@media (prefers-reduced-motion: reduce) {
+  .custom-cursor,
+  .cursor-trail,
+  .cta-button {
+    transition: none !important;
+    animation: none !important;
+  }
+}
