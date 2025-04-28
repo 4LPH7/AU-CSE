@@ -22,9 +22,6 @@ A modern, fast, and visually appealing website for the **Department of Computer 
 
 ```
 AU-CSE
-├─ .bolt
-│  ├─ config.json
-│  └─ prompt
 ├─ README.md
 ├─ eslint.config.js
 ├─ index.html
