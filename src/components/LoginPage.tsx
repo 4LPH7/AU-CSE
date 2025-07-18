@@ -50,53 +50,35 @@ const LoginPage = () => {
       const { error } = await supabase.auth.signInWithOtp({
         email: formData.email,
         options: {
-          shouldCreateUser: false
+          shouldCreateUser: false,
+          emailRedirectTo: `${window.location.origin}/login?verified=true`
         }
       });
 
       if (error) throw error;
 
-      setSuccess('OTP sent to your email. Please check your inbox.');
-      setAuthStep('otp');
+      setSuccess('Magic link sent to your email. Please check your inbox and click the link to login.');
+      setTimeout(() => {
+        setAuthStep('select');
+      }, 3000);
     } catch (err: any) {
-      setError(err.message || 'Failed to send OTP');
+      setError(err.message || 'Failed to send magic link');
     } finally {
       setLoading(false);
     }
   };
 
-  const handleOtpVerification = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.otp) {
-      setError('Please enter the OTP');
-      return;
-    }
-
-    setLoading(true);
-    setError('');
-
-    try {
-      const { error } = await supabase.auth.verifyOtp({
-        email: formData.email,
-        token: formData.otp,
-        type: 'email'
-      });
-
-      if (error) throw error;
-
+  // Check for magic link verification on component mount
+  React.useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('verified') === 'true') {
       setSuccess('Login successful! Redirecting...');
       setAuthStep('success');
-      
-      // Redirect after successful login
       setTimeout(() => {
         window.location.href = '/';
       }, 2000);
-    } catch (err: any) {
-      setError(err.message || 'Invalid OTP');
-    } finally {
-      setLoading(false);
     }
-  };
+  }, []);
 
   const handleStaffStudentLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -188,7 +170,7 @@ const LoginPage = () => {
 
       <div className="grid grid-cols-1 gap-4 reveal">
         {[
-          { type: 'admin' as UserType, title: 'Admin', description: 'Login with email OTP', icon: Mail },
+          { type: 'admin' as UserType, title: 'Admin', description: 'Login with magic link', icon: Mail },
           { type: 'staff' as UserType, title: 'Staff', description: 'Login with Staff ID', icon: User },
           { type: 'student' as UserType, title: 'Student', description: 'Login with Roll Number', icon: User }
         ].map(({ type, title, description, icon: Icon }) => (
@@ -224,7 +206,7 @@ const LoginPage = () => {
         </button>
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Admin Login</h2>
-          <p className="text-gray-600">Enter your email to receive an OTP</p>
+          <p className="text-gray-600">Enter your email to receive a magic link</p>
         </div>
       </div>
 
@@ -251,57 +233,7 @@ const LoginPage = () => {
           disabled={loading}
           className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
-          {loading ? 'Sending OTP...' : 'Send OTP'}
-        </button>
-      </form>
-    </div>
-  );
-
-  const renderOtpVerification = () => (
-    <div className="space-y-6">
-      <div className="flex items-center space-x-4">
-        <button
-          onClick={() => setAuthStep('login')}
-          className="p-2 text-gray-400 hover:text-gray-600 transition-colors"
-        >
-          <ArrowLeft className="w-5 h-5" />
-        </button>
-        <div>
-          <h2 className="text-2xl font-bold text-gray-900">Enter OTP</h2>
-          <p className="text-gray-600">Check your email for the verification code</p>
-        </div>
-      </div>
-
-      <form onSubmit={handleOtpVerification} className="space-y-4">
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Verification Code
-          </label>
-          <input
-            type="text"
-            value={formData.otp}
-            onChange={(e) => handleInputChange('otp', e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-center text-lg tracking-widest"
-            placeholder="000000"
-            maxLength={6}
-            required
-          />
-        </div>
-
-        <button
-          type="submit"
-          disabled={loading}
-          className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-        >
-          {loading ? 'Verifying...' : 'Verify OTP'}
-        </button>
-
-        <button
-          type="button"
-          onClick={() => setAuthStep('login')}
-          className="w-full text-blue-600 hover:text-blue-700 py-2 text-sm"
-        >
-          Resend OTP
+          {loading ? 'Sending Magic Link...' : 'Send Magic Link'}
         </button>
       </form>
     </div>
@@ -451,8 +383,6 @@ const LoginPage = () => {
         return renderUserTypeSelection();
       case 'login':
         return userType === 'admin' ? renderAdminLogin() : renderStaffStudentLogin();
-      case 'otp':
-        return renderOtpVerification();
       case 'forgot-password':
         return renderForgotPassword();
       case 'success':
