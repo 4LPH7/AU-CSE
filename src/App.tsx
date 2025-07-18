@@ -12,6 +12,8 @@ import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import Faculty from './components/Faculty';
 import Chatbot from './components/Chatbot';
+import LoginPage from './components/LoginPage';
+import ResetPassword from './components/ResetPassword';
 import CustomCursor from './components/CustomCursor';
 import ScrollToTop from './components/ScrollToTop';
 import './styles/animations.css';
@@ -40,6 +42,8 @@ function App() {
           <Route path="/programs" element={<Programs />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />

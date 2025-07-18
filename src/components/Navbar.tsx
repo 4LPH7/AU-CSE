@@ -34,7 +34,8 @@ const Navbar = () => {
       path: 'https://annamalaiuniversity.ac.in/CSE_handbook.php?dc=E04',
       external: true 
     },
-    { name: 'May I Help You', path: '/chatbot' }
+    { name: 'May I Help You', path: '/chatbot' },
+    { name: 'Login', path: '/login' }
   ];
 
   return (
